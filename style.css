@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+#profilepic {
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+section {
+  width: 544px;
+}
+
+a {
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+.contenedorLink {
+  padding: 16px 0;
+  margin-bottom: 10px;
+  border: 1px gray solid;
+  box-shadow: rgb(10 11 13 / 8%) 0px 2px 4px 0px;
+  border-radius: 4px;
+}
+
+.contenedorLink a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
